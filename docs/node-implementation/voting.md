@@ -37,7 +37,7 @@ If the confirmation acknowledgement is returned for those peers they will be con
 
 ## Online weight calculator
 
-Whenever a vote signed by a particular representative is processed by the node, it will consider that representative to be online and included in the online weight calculations. This online status will remain for a period of 5 minutes after the vote processing and the clock will reset back to 5 minutess when additional voting is seen.
+Whenever a vote signed by a particular representative is processed by the node, it will consider that representative to be online and included in the online weight calculations. This online status will remain for a period of 5 minutes after the vote processing and the clock will reset back to 5 minutes when additional voting is seen.
 
 This online status is counted regardless of where the vote originated from - the [rep crawler](#rep-crawler), live voting activity, etc.
 
