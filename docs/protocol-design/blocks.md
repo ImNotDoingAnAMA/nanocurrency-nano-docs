@@ -75,7 +75,7 @@ A receive block is very similar to the send block mentioned above, except the ac
 
 ### Change rep
 
-Nano account holders have the ability to choose a representative to vote on their behalf. This can be done any time (i.e. in an open, send, or receive transaction) by changing the representative field. In conventional PoS systems, the account owner’s node must be  continuosly running to participate in voting. This is impractical for many users, so to remove this requirement Nano was designed to give a representative the power to vote on an account’s behalf. A change transaction is what changes the representative of an account by subtracting the vote weight from the old representative and adding the weight to the new representative. No funds are moved in this transaction, and the representative does not have spending power of the account’s funds.
+Nano account holders have the ability to choose a representative to vote on their behalf. This can be done any time (i.e. in an open, send, or receive transaction) by changing the representative field. In conventional PoS systems, the account owner’s node must be  continuously running to participate in voting. This is impractical for many users, so to remove this requirement Nano was designed to give a representative the power to vote on an account’s behalf. A change transaction is what changes the representative of an account by subtracting the vote weight from the old representative and adding the weight to the new representative. No funds are moved in this transaction, and the representative does not have spending power of the account’s funds.
 
 ---
 
