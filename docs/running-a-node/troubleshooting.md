@@ -80,7 +80,7 @@ Please follow the steps below for the corresponding node version you are using. 
     From this output, only the last 3 lines are relevant.
 
 !!! example "Step 2: Getting syslog information"
-    More information might be available in syslog. Run the following command and look for the time the crash ocurred.
+    More information might be available in syslog. Run the following command and look for the time the crash occurred.
 
     ```bash
     cat /var/log/syslog
@@ -569,6 +569,6 @@ Check the beginning of the logs for UPNP_* messages
     [2019-Oct-29 11:06:56.641389]: UPNP_GetSpecificPortMappingEntry failed 714: NoSuchEntryInArray
     [2019-Oct-29 11:06:56.644387]: UPNP_GetSpecificPortMappingEntry failed 714: NoSuchEntryInArray
     ```
-    This message is expected when starting the node and will go away after the UPnP has mappeded the port
+    This message is expected when starting the node and will go away after the UPnP has mapped the port
 
 ---
