@@ -22,7 +22,7 @@ By turning `enable_control` on, anyone with access to your RPC can run these pot
 
 ### Port configuration
 
-Opening default port `7075` on TCP is required for the node to participate on the main network and this should be done unrestricted. The default port for RPC access is `7076` and should only be available to those you wish to have control of the node. Verifying the configuration in `config-rpc.toml` file for `address` and `enable_control` should be done on all nodes, alonside other access verifications outlined below.
+Opening default port `7075` on TCP is required for the node to participate on the main network and this should be done unrestricted. The default port for RPC access is `7076` and should only be available to those you wish to have control of the node. Verifying the configuration in `config-rpc.toml` file for `address` and `enable_control` should be done on all nodes, alongside other access verifications outlined below.
 
 !!! danger "Opening RPC port externally and enabling control is potentially dangerous"
 	As mentioned above, enabling control allows anyone with RPC access to make potentially dangerous calls to your node. If turning on `enable_control`, you must carefully review any access granted to the RPC port (default `7076`) to ensure it is as secure as possible.
@@ -42,7 +42,7 @@ Due to the node currently processing all transactions, keeping them running and 
 * Use a [firewall](#firewalls) to whitelist IP access to SSH connections
 * Set timeouts for idle SSH connections
 * Get setup to block SSH brute force attempts automatically with tools like Fail2ban
-* Limit the maximimum authentication attempts allowed
+* Limit the maximum authentication attempts allowed
 * Setup alerts and monitoring for SSH connections
 
 Using a variety of these control measures for server access can increase your resistance to unauthorized access to your host machine and help protect your node from interference.
