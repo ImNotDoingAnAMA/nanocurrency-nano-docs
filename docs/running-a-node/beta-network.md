@@ -3,7 +3,7 @@ description: Find out how to join the nano community in testing the latest nano 
 
 # Joining the beta network
 
-The beta network exists for the purpose of conducting certain network-wide activites including load testing and [new node releases and features testing](#node-release-testing). These activities can cause the network to become unstable or inaccessible at times due to heavy traffic, occasional resetting of the genesis/ledger or the introduction of bugs due to new features. As a result, an alternative [test network](test-network.md) is also available which will be more stable and is a better fit for learning node setup and management, and testing out upgrades and other activities for Nano before moving to production.
+The beta network exists for the purpose of conducting certain network-wide activities including load testing and [new node releases and features testing](#node-release-testing). These activities can cause the network to become unstable or inaccessible at times due to heavy traffic, occasional resetting of the genesis/ledger or the introduction of bugs due to new features. As a result, an alternative [test network](test-network.md) is also available which will be more stable and is a better fit for learning node setup and management, and testing out upgrades and other activities for Nano before moving to production.
 
 With those things in consideration, if you are interested in helping with testing on the beta network we are excited to help you out - so keep reading!
 
@@ -91,7 +91,7 @@ The funds used for testing transactions on the beta network are generated from a
 
 To help get beta nodes in sync more quickly it is recommended that an updated ledger file is downloaded and placed into the data directory. Often referred to as a "fast sync", more details around this approach can be found in the [Ledger Management guide](ledger-management.md#downloaded-ledger-files). Since the beta network contains no value, validating the blocks, voting weights and confirmation heights isn't necessary.
 
-The following command will download and unzip a recent ledger snapshot. Any existing ledger files should be backed up elswhere as this will override them. From within the [data directory](#directory-locations) run:
+The following command will download and unzip a recent ledger snapshot. Any existing ledger files should be backed up elsewhere as this will override them. From within the [data directory](#directory-locations) run:
 
 ```
 curl -O https://s3.us-east-2.amazonaws.com/beta-snapshot.nano.org/data.tar.gz; tar -xzvf data.tar.gz; rm -fr data.tar.gz
